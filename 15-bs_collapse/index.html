@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        data-bs-target="#demo"
+      >
+        Simple collapse
+      </button>
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eum
+        dolorum, necessitatibus officiis doloremque soluta blanditiis. Assumenda
+        distinctio eaque, illo quibusdam corporis quaerat. Possimus nobis,
+        assumenda distinctio deserunt explicabo voluptates.
+      </div>
+    </div>
+    <br />
+    <div class="container mt-3">
+      <a href="#demo2" class="btn btn-primary" data-bs-toggle="collapse">
+        Simple collapse
+      </a>
+      <div id="demo2" class="collapse show" style="border: 1px solid black">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eum
+        dolorum, necessitatibus officiis doloremque soluta blanditiis. Assumenda
+        distinctio eaque, illo quibusdam corporis quaerat. Possimus nobis,
+        assumenda distinctio deserunt explicabo voluptates.
+      </div>
+    </div>
+    <br />
+    <div class="container mt-3">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseOne" class="btn" data-bs-toggle="collapse"
+              >Collapsible Group Item 1</a
+            >
+            <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                corporis alias. Iure, vero sed, voluptates laudantium autem esse
+                sequi corporis illum quis ipsum et expedita tenetur, alias odio
+                velit nostrum?
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseTwo" class="btn" data-bs-toggle="collapse"
+              >Collapsible Group Item 2</a
+            >
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                corporis alias. Iure, vero sed, voluptates laudantium autem esse
+                sequi corporis illum quis ipsum et expedita tenetur, alias odio
+                velit nostrum?
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#collapseThree" class="btn" data-bs-toggle="collapse"
+              >Collapsible Group Item 3</a
+            >
+            <div
+              id="collapseThree"
+              class="collapse"
+              data-bs-parent="#accordion"
+            >
+              <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                corporis alias. Iure, vero sed, voluptates laudantium autem esse
+                sequi corporis illum quis ipsum et expedita tenetur, alias odio
+                velit nostrum?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
